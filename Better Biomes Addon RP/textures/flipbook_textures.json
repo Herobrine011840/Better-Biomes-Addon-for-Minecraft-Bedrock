@@ -1,0 +1,7 @@
+[
+    {
+        "flipbook_texture": "textures/blocks/arsonite_ore",
+        "atlas_tile": "betterbiomes_arsonite_ore",
+        "ticks_per_frame": 4
+    }
+]

@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Herobrine011840"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.6.1"
+			],
+			"dash": [
+				"0.10.10"
+			]
+		}
+	},
+	"header": {
+		"name": "Better Biomes Addon",
+		"description": "This addon gives the overworld a biome makeover.",
+		"min_engine_version": [
+			1,
+			20,
+			0
+		],
+		"uuid": "ad45cd06-008b-4cc3-840e-09b0b148a9a0",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "26d3b0a6-8254-4c8f-b057-b1c6b1ccc456",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

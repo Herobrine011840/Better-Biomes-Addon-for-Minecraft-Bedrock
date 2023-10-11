@@ -1,0 +1,39 @@
+{
+	"resource_pack_name": "Better Biomes Addon",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"betterbiomes_vermillite_crystals": {
+			"textures": "textures/items/vermillite_crystals"
+		},
+		"betterbiomes_covellite_scrap": {
+			"textures": "textures/items/covellite_scrap"
+		},
+		"betterbiomes_ameliorite_ingot": {
+			"textures": "textures/items/ameliorite_ingot"
+		},
+		"betterbiomes_ameliorite_helmet": {
+			"textures": "textures/items/ameliorite_helmet"
+		},
+		"betterbiomes_ameliorite_chestplate": {
+			"textures": "textures/items/ameliorite_chestplate"
+		},
+		"betterbiomes_ameliorite_leggings": {
+			"textures": "textures/items/ameliorite_leggings"
+		},
+		"betterbiomes_ameliorite_boots": {
+			"textures": "textures/items/ameliorite_boots"
+		},
+		"betterbiomes_raw_arsonite": {
+			"textures": "textures/items/raw_arsonite"
+		},
+		"betterbiomes_arsonite_ingot": {
+			"textures": "textures/items/arsonite_ingot"
+		},
+		"betterbiomes_dinosaur_bone": {
+			"textures": "textures/items/dinosaur_bone"
+		},
+		"betterbiomes_terracotta_alloy_ingot": {
+			"textures": "textures/items/terracotta_alloy_ingot"
+		}
+	}
+}

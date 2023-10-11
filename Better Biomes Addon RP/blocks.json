@@ -1,0 +1,73 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"betterbiomes:diamond_crystal": {
+		"sound": "amethyst_block",
+		"textures": "betterbiomes_diamond_crystal"
+	},
+	"betterbiomes:cracked_diamond_crystal": {
+		"sound": "amethyst_block",
+		"textures": "betterbiomes_cracked_diamond_crystal"
+	},
+	"betterbiomes:emerald_crystal": {
+		"sound": "amethyst_block",
+		"textures": "betterbiomes_emerald_crystal"
+	},
+	"betterbiomes:cracked_emerald_crystal": {
+		"sound": "amethyst_block",
+		"textures": "betterbiomes_cracked_emerald_crystal"
+	},
+	"betterbiomes:ash_stone": {
+		"sound": "stone",
+		"textures": "betterbiomes_ash_stone"
+	},
+	"betterbiomes:ash_stone_bricks": {
+		"sound": "stone",
+		"textures": "betterbiomes_ash_stone_bricks"
+	},
+	"betterbiomes:conglomerate": {
+		"sound": "basalt",
+		"textures": "betterbiomes_conglomerate"
+	},
+	"betterbiomes:vermillite_ore": {
+		"sound": "basalt",
+		"textures": "betterbiomes_vermillite_ore"
+	},
+	"betterbiomes:ash_stone_slab": {
+		"sound": "stone"
+	},
+	"betterbiomes:ash_stone_brick_slab": {
+		"sound": "stone"
+	},
+	"betterbiomes:covellite_trace": {
+		"sound": "stone",
+		"textures": "betterbiomes_covellite_trace"
+	},
+	"betterbiomes:ameliorite_block": {
+		"sound": "netherite",
+		"textures": "betterbiomes_ameliorite_block"
+	},
+	"betterbiomes:arsonite_ore": {
+		"sound": "nether_gold_ore",
+		"textures": "betterbiomes_arsonite_ore"
+	},
+	"betterbiomes:raw_arsonite_block": {
+		"sound": "stone",
+		"textures": "betterbiomes_raw_arsonite_block"
+	},
+	"betterbiomes:arsonite_block": {
+		"sound": "metal",
+		"textures": "betterbiomes_arsonite_block"
+	},
+	"betterbiomes:terracotta_alloy_block": {
+		"sound": "metal",
+		"textures": "betterbiomes_terracotta_alloy_block"
+	},
+	"betterbiomes:chiseled_terracotta_alloy_block": {
+		"sound": "metal",
+		"textures": "betterbiomes_chiseled_terracotta_alloy_block"
+	}
+}

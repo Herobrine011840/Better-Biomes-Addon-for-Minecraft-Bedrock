@@ -1,0 +1,1 @@
+{"format_version":"1.16.100","minecraft:fog_settings":{"description":{"identifier":"betterbiomes:spring_fog"},"distance":{"air":{"fog_color":"#fefabb","render_distance_type":"fixed","fog_start":500,"fog_end":2000}}}}

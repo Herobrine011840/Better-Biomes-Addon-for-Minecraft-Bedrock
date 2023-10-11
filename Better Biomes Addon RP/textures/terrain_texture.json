@@ -1,0 +1,59 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "Better Biomes Addon",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"betterbiomes_diamond_crystal": {
+			"textures": "textures/blocks/diamond_crystal"
+		},
+		"betterbiomes_cracked_diamond_crystal": {
+			"textures": "textures/blocks/cracked_diamond_crystal"
+		},
+		"betterbiomes_emerald_crystal": {
+			"textures": "textures/blocks/emerald_crystal"
+		},
+		"betterbiomes_cracked_emerald_crystal": {
+			"textures": "textures/blocks/cracked_emerald_crystal"
+		},
+		"betterbiomes_ash_stone": {
+			"textures": "textures/blocks/ash_stone"
+		},
+		"betterbiomes_ash_stone_bricks": {
+			"textures": "textures/blocks/ash_stone_bricks"
+		},
+		"betterbiomes_conglomerate": {
+			"textures": "textures/blocks/conglomerate"
+		},
+		"betterbiomes_vermillite_ore": {
+			"textures": "textures/blocks/vermillite_ore"
+		},
+		"betterbiomes_ash_stone_slab": {
+			"textures": "textures/blocks/ash_stone"
+		},
+		"betterbiomes_ash_stone_brick_slab": {
+			"textures": "textures/blocks/ash_stone_bricks"
+		},
+		"betterbiomes_covellite_trace": {
+			"textures": "textures/blocks/covellite_trace"
+		},
+		"betterbiomes_ameliorite_block": {
+			"textures": "textures/blocks/ameliorite_block"
+		},
+		"betterbiomes_arsonite_ore": {
+			"textures": "textures/blocks/arsonite_ore"
+		},
+		"betterbiomes_raw_arsonite_block": {
+			"textures": "textures/blocks/raw_arsonite_block"
+		},
+		"betterbiomes_arsonite_block": {
+			"textures": "textures/blocks/arsonite_block"
+		},
+		"betterbiomes_terracotta_alloy_block": {
+			"textures": "textures/blocks/terracotta_alloy_block"
+		},
+		"betterbiomes_chiseled_terracotta_alloy_block": {
+			"textures": "textures/blocks/chiseled_terracotta_alloy_block"
+		}
+	}
+}
