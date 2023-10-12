@@ -1,0 +1,28 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "betterbiomes:ameliorite_chestplate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"A": {
+				"item": "betterbiomes:ameliorite_ingot"
+			},
+			"D": {
+				"item": "diamond"
+			}
+		},
+		"pattern": [
+			"D D",
+			"DAD",
+			"DDD"
+		],
+		"result": {
+			"count": 1,
+			"item": "betterbiomes:ameliorite_chestplate"
+		}
+	}
+}

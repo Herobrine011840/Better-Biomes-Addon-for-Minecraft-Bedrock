@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "betterbiomes:ameliorite_helmet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"A": {
+				"item": "betterbiomes:ameliorite_ingot"
+			},
+			"D": {
+				"item": "diamond"
+			}
+		},
+		"pattern": [
+			"DAD",
+			"D D"
+		],
+		"result": {
+			"count": 1,
+			"item": "betterbiomes:ameliorite_helmet"
+		}
+	}
+}

@@ -1,0 +1,567 @@
+{
+  "pools": [
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "item",
+          "name": "written_book",
+          "functions": [
+            {
+              "function": "set_book_contents",
+              "author": "Herobrine011840",
+              "title": "Better Biomes",
+              "pages": [
+                " A Guide to the Better          Biomes Addon 
+ 
+         Blocks: 
+Arsonite: 
+  An uncommon nether ore that can be used for furnace fuel. Will set itself on fire (hence the name). 
+ 
+Ash Stone: 
+  Common stone found in the stony peaks that ",
+  "can be used to craft bricks. 
+ 
+Conglomerate: 
+  Fragile stone found in the stony peaks that has no use. 
+ 
+Covellite Trace: 
+  A rare ore found in copper ore veins used to make ameliorite ingots. ",
+  "Diamond & Emerald Crystals: 
+  Valuable minerals found in the new geode types. Some blocks inside the geodes will yield their respective ores. 
+ 
+Vermillite: 
+  A rare ore found in stony peaks, specifically in conglomerate veins, ",
+  "that is used to craft ameliorite ingots. 
+ 
+          Items: 
+Ameliorite: 
+  Very rare alloyed ingots that can be used to make blocks and armor. 
+ 
+Arsonite Ingots: 
+  Nether ore used to craft blocks and terracotta alloy, which ",
+  "can also be used for fuel. 
+ 
+Dinosaur Bones: 
+  Rare items found in desert bones that is used to craft ameliorite ingots. 
+ 
+Terracotta Alloy: 
+  Common decorative ingots that craft blocks and can be chiseled. ",
+  "          Biomes: 
+-Wooded Badlands (redone) 
+-Lush Caves 
+(redone) 
+-Dry Forest 
+(new) 
+-Springs 
+(new) 
+-Stony Peaks 
+(redone) 
+-Swamp 
+(redone) ",
+"-Tropical Allium Fields 
+(new) 
+-Desert 
+(redone) "
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:stone_axe",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:wooden_axe",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:stone_pickaxe",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:wooden_pickaxe",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:apple",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:bread",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:salmon",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 12
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:planks",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 12
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:log2",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:log2",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 1
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:mangrove_log",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:log",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:log",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 1
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:log",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 2
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:log",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 3
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:potato",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:carrot",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:sapling",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:sapling",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 1
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:sapling",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 2
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:sapling",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 3
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:sapling",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 4
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:sapling",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 5
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:melon_seeds",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:pumpkin_seeds",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:beetroot_seeds",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:cactus",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:dye",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_data",
+              "data": 3
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:brown_mushroom",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

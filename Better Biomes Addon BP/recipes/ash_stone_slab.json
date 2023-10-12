@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "betterbiomes:ash_stone_slab"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"A": {
+				"item": "betterbiomes:ash_stone"
+			}
+		},
+		"pattern": [
+			"AAA"
+		],
+		"result": {
+			"count": 6,
+			"item": "betterbiomes:ash_stone_slab"
+		}
+	}
+}

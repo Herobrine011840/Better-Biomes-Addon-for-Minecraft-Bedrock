@@ -1,0 +1,14 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "betterbiomes:covellite_scrap"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "betterbiomes:covellite_trace",
+		"output": "betterbiomes:covellite_scrap"
+	}
+}

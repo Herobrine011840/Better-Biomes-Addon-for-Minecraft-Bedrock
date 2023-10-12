@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "betterbiomes:diamond_crystal"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"D": {
+				"item": "diamond"
+			}
+		},
+		"pattern": [
+			" D ",
+			"D D",
+			" D "
+		],
+		"result": {
+			"count": 1,
+			"item": "betterbiomes:diamond_crystal"
+		}
+	}
+}

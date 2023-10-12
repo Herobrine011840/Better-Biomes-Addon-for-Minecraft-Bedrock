@@ -1,0 +1,21 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "betterbiomes:arsonite_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"count": 9,
+				"item": "betterbiomes:arsonite_ingot"
+			}
+		],
+		"result": {
+			"count": 1,
+			"item": "betterbiomes:arsonite_block"
+		}
+	}
+}

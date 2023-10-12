@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "betterbiomes:ameliorite_ingot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"count": 2,
+				"item": "betterbiomes:covellite_scrap"
+			},
+			{
+				"count": 2,
+				"item": "betterbiomes:vermillite_crystals"
+			},
+			{
+				"count": 1,
+				"item": "betterbiomes:diamond_crystal"
+			},
+			{
+				"count": 1,
+				"item": "betterbiomes:dinosaur_bone"
+			}
+		],
+		"result": {
+			"count": 1,
+			"item": "betterbiomes:ameliorite_ingot"
+		}
+	}
+}

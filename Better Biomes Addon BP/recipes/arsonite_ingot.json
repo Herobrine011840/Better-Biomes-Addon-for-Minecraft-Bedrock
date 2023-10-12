@@ -1,0 +1,14 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "betterbiomes:arsonite_ingot"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "betterbiomes:raw_arsonite",
+		"output": "betterbiomes:arsonite_ingot"
+	}
+}
