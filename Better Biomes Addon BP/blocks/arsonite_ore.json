@@ -1,0 +1,39 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "betterbiomes:arsonite_ore"
+		},
+		"components": {
+			"minecraft:block_light_absorption": 15,
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.ore"
+			},
+			"minecraft:destroy_time": 0.3,
+			"minecraft:explosion_resistance": 3,
+			"minecraft:map_color": "#723232",
+			"minecraft:block_light_emission": 0.1,
+			"minecraft:random_ticking": {
+				"on_tick": {
+					"event": "ignite"
+				}
+			},
+			"minecraft:flammable": {
+				"burn_odds": 0,
+				"flame_odds": 5
+			},
+			"minecraft:loot": "loot_tables/arsonite.json"
+		},
+		"events": {
+			"ignite": {
+				"run_command": {
+					"command": [
+						"execute if block ~ ~1 ~ air run playsound mob.ghast.fireball @a ~ ~ ~",
+						"execute if block ~ ~1 ~ air run setblock ~ ~1 ~ fire"
+					]
+				}
+			}
+		}
+	}
+}

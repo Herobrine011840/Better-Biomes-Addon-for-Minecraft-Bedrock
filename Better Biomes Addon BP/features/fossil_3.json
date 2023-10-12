@@ -1,0 +1,18 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "betterbiomes:fossil_3"
+		},
+		"structure_name": "mystructure:fossil_3",
+		"adjustment_radius": 16,
+		"constraints": {
+			"block_intersection": {
+				"block_allowlist": [
+					"sand",
+					"sandstone"
+				]
+			}
+		}
+	}
+}

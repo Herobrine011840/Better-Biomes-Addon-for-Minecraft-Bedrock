@@ -1,0 +1,28 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:cave_carver_feature": {
+		"description": {
+			"identifier": "betterbiomes:big_cave_carver"
+		},
+		"fill_with": "minecraft:air",
+		"width_modifier": 3,
+		"skip_carve_chance": 98,
+		"y_scale": [
+			0.9,
+			3.9
+		],
+		"height_limit": 256,
+		"horizontal_radius_multiplier": [
+			0.7,
+			1.4
+		],
+		"vertical_radius_multiplier": [
+			2,
+			4.6
+		],
+		"floor_level": [
+			-1,
+			-0.4
+		]
+	}
+}

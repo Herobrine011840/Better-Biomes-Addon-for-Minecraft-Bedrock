@@ -1,0 +1,18 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "betterbiomes:ash_stone"
+		},
+		"components": {
+			"minecraft:block_light_absorption": 15,
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.stone"
+			},
+			"minecraft:destroy_time": 0.4,
+			"minecraft:explosion_resistance": 40,
+			"minecraft:map_color": "#333333"
+		}
+	}
+}

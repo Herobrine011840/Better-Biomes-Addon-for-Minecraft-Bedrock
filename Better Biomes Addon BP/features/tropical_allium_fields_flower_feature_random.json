@@ -1,0 +1,18 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "betterbiomes:tropical_allium_fields_flower_feature_random"
+		},
+		"features": [
+			[
+				"betterbiomes:tropical_allium_fields_flower_feature",
+				20
+			],
+			[
+				"betterbiomes:tropical_allium_fields_poppy_flower_feature",
+				1
+			]
+		]
+	}
+}

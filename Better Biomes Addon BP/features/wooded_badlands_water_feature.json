@@ -1,0 +1,30 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:vegetation_patch_feature": {
+		"description": {
+			"identifier": "betterbiomes:wooded_badlands_water_feature"
+		},
+		"replaceable_blocks": [
+			{
+				"name": "dirt",
+				"states": {
+					"dirt_type": "coarse"
+				}
+			},
+			"grass"
+		],
+		"ground_block": "moss_block",
+		"vegetation_feature": "betterbiomes:dead_and_alive_bush_feature",
+		"surface": "floor",
+		"depth": 1,
+		"extra_deep_block_chance": 0,
+		"vertical_range": 4,
+		"vegetation_chance": 0.1,
+		"horizontal_radius": {
+			"range_min": 1,
+			"range_max": 3
+		},
+		"extra_edge_column_chance": 1,
+		"waterlogged": true
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "betterbiomes:diamond_crystal"
+		},
+		"components": {
+			"minecraft:block_light_absorption": 15,
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "nature"
+			},
+			"minecraft:destroy_time": 0.6,
+			"minecraft:explosion_resistance": 20,
+			"minecraft:map_color": "#2ce0d8",
+			"minecraft:random_ticking": {
+				"on_tick": {
+					"event": "shimmer"
+				}
+			}
+		},
+		"events": {
+			"shimmer": {
+				"run_command": {
+					"command": [
+						"playsound chime.amethyst_block @a ~ ~ ~"
+					]
+				}
+			}
+		}
+	}
+}

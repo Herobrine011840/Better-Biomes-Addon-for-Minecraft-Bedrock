@@ -1,0 +1,16 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "betterbiomes:tropical_allium_fields_poppy_flower_feature"
+		},
+		"places_block": {
+			"name": "minecraft:red_flower"
+		},
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": true,
+		"may_replace": [
+			"minecraft:air"
+		]
+	}
+}

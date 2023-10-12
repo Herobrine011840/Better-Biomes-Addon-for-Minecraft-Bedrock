@@ -1,0 +1,49 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "betterbiomes:wooded_badlands_cave_vine_on_tree_feature",
+      "places_feature": "betterbiomes:wooded_badlands_tree_vine_feature"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "stone"
+        },
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "mesa"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 10,
+      "coordinate_eval_order": "zxy",
+      "x": {
+        "distribution": "gaussian",
+        "extent": [
+          0,
+          16
+        ]
+      },
+      "y": {
+        "distribution": "gaussian",
+        "extent": [
+          78,
+          128
+        ]
+      },
+      "z": {
+        "distribution": "gaussian",
+        "extent": [
+          0,
+          16
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+	"format_version": "1.18.20",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "betterbiomes:fossil_random"
+		},
+		"features": [
+			[
+				"betterbiomes:fossil_1",
+				1
+			],
+			[
+				"betterbiomes:fossil_2",
+				1
+			],
+			[
+				"betterbiomes:fossil_3",
+				1
+			],
+			[
+				"betterbiomes:fossil_4",
+				1
+			],
+			[
+				"betterbiomes:fossil_5",
+				1
+			]
+		]
+	}
+}

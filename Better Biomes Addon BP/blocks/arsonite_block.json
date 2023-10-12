@@ -1,0 +1,38 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "betterbiomes:arsonite_block"
+		},
+		"components": {
+			"minecraft:block_light_absorption": 15,
+			"minecraft:creative_category": {
+				"category": "construction",
+				"group": "construction"
+			},
+			"minecraft:destroy_time": 1,
+			"minecraft:explosion_resistance": 100,
+			"minecraft:map_color": "#fbbe51",
+			"minecraft:block_light_emission": 0.4,
+			"minecraft:random_ticking": {
+				"on_tick": {
+					"event": "ignite"
+				}
+			},
+			"minecraft:flammable": {
+				"burn_odds": 0,
+				"flame_odds": 5
+			}
+		},
+		"events": {
+			"ignite": {
+				"run_command": {
+					"command": [
+						"execute if block ~ ~1 ~ air run playsound mob.ghast.fireball @a ~ ~ ~",
+						"execute if block ~ ~1 ~ air run setblock ~ ~1 ~ fire"
+					]
+				}
+			}
+		}
+	}
+}

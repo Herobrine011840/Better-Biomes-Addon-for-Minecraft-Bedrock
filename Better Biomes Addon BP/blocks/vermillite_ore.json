@@ -1,0 +1,31 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "betterbiomes:vermillite_ore"
+		},
+		"components": {
+			"minecraft:block_light_absorption": 15,
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.ore"
+			},
+			"minecraft:destroy_time": 0.0001,
+			"minecraft:explosion_resistance": 3,
+			"minecraft:map_color": "#7f7f7f",
+			"minecraft:loot": "loot_tables/vermillite.json",
+			"minecraft:on_player_destroyed": {
+				"event": "xp"
+			}
+		},
+		"events": {
+			"xp": {
+				"run_command": {
+					"command": [
+						"summon xp_orb"
+					]
+				}
+			}
+		}
+	}
+}

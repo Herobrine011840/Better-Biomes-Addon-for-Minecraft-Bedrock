@@ -1,0 +1,44 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "betterbiomes:desert_fossil_feature",
+      "places_feature": "betterbiomes:fossil_random"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "desert"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 10,
+      "coordinate_eval_order": "zxy",
+      "x": {
+        "distribution": "gaussian",
+        "extent": [
+          0,
+          16
+        ]
+      },
+      "y": {
+        "distribution": "gaussian",
+        "extent": [
+          40,
+          200
+        ]
+      },
+      "z": {
+        "distribution": "gaussian",
+        "extent": [
+          0,
+          16
+        ]
+      }
+    }
+  }
+}

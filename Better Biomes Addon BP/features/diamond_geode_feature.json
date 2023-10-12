@@ -1,0 +1,33 @@
+{
+	"format_version": "1.18.10",
+	"minecraft:geode_feature": {
+		"description": {
+			"identifier": "betterbiomes:diamond_geode_feature"
+		},
+		"filler": "minecraft:air",
+		"inner_layer": "betterbiomes:diamond_crystal",
+		"alternate_inner_layer": "betterbiomes:cracked_diamond_crystal",
+		"middle_layer": "minecraft:calcite",
+		"outer_layer": "minecraft:smooth_basalt",
+		"inner_placements": [
+			{
+				"name": "minecraft:air"
+			}
+		],
+		"min_outer_wall_distance": 1,
+		"max_outer_wall_distance": 7,
+		"min_distribution_points": 3,
+		"max_distribution_points": 5,
+		"min_point_offset": 1,
+		"max_point_offset": 3,
+		"max_radius": 12,
+		"crack_point_offset": 2,
+		"generate_crack_chance": 0.95,
+		"base_crack_size": 2,
+		"noise_multiplier": 0.025,
+		"use_potential_placements_chance": 0.03,
+		"use_alternate_layer0_chance": 0.03,
+		"placements_require_layer0_alternate": true,
+		"invalid_blocks_threshold": 1
+	}
+}

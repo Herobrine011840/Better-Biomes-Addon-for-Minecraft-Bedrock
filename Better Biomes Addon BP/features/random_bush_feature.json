@@ -1,0 +1,18 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "betterbiomes:random_bush_feature"
+		},
+		"features": [
+			[
+				"betterbiomes:alive_bush_feature",
+				1
+			],
+			[
+				"betterbiomes:dead_bush_feature",
+				2
+			]
+		]
+	}
+}

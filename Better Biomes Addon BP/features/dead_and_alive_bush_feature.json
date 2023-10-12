@@ -1,0 +1,33 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "betterbiomes:dead_and_alive_bush_feature"
+		},
+		"iterations": 50,
+		"project_input_to_floor": true,
+		"coordinate_eval_order": "xyz",
+		"x": {
+			"extent": [
+				0,
+				5
+			],
+			"distribution": "gaussian"
+		},
+		"z": {
+			"extent": [
+				0,
+				5
+			],
+			"distribution": "gaussian"
+		},
+		"y": {
+			"extent": [
+				0,
+				5
+			],
+			"distribution": "gaussian"
+		},
+		"places_feature": "betterbiomes:random_bush_feature"
+	}
+}

@@ -1,0 +1,38 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "betterbiomes:swamp_surface_swamp_foliage_feature",
+      "places_feature": "minecraft:swamp_tree_feature"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "swamp"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 100,
+      "coordinate_eval_order": "zxy",
+      "x": {
+        "distribution": "gaussian",
+        "extent": [
+          0,
+          16
+        ]
+      },
+      "y": "query.heightmap(v.worldx, v.worldz)",
+      "z": {
+        "distribution": "gaussian",
+        "extent": [
+          0,
+          16
+        ]
+      }
+    }
+  }
+}

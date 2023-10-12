@@ -1,0 +1,38 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:growing_plant_feature": {
+		"description": {
+			"identifier": "betterbiomes:dripleaf_feature"
+		},
+		"height_distribution": [
+			[
+				2,
+				2
+			]
+		],
+		"growth_direction": "UP",
+		"body_blocks": [
+			[
+				{
+					"name": "minecraft:small_dripleaf_block",
+					"states": {
+						"upper_block_bit": false
+					}
+				},
+				1
+			]
+		],
+		"head_blocks": [
+			[
+				{
+					"name": "minecraft:small_dripleaf_block",
+					"states": {
+						"upper_block_bit": true
+					}
+				},
+				1
+			]
+		],
+		"allow_water": true
+	}
+}

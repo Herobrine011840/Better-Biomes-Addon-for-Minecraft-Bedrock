@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:nether_cave_carver_feature": {
+		"description": {
+			"identifier": "betterbiomes:arsonite_ore_vein"
+		},
+		"fill_with": "betterbiomes:arsonite_ore",
+		"width_modifier": 0,
+		"skip_carve_chance": 65,
+		"y_scale": [
+			0.5,
+			0.5
+		],
+		"height_limit": 128,
+		"horizontal_radius_multiplier": [
+			1,
+			1
+		],
+		"vertical_radius_multiplier": [
+			1,
+			1
+		],
+		"floor_level": [
+			-0.7,
+			-0.7
+		]
+	}
+}

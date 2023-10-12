@@ -1,0 +1,31 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:growing_plant_feature": {
+		"description": {
+			"identifier": "betterbiomes:wooded_badlands_cave_vine_on_tree_feature"
+		},
+		"height_distribution": [
+			[
+				1,
+				1
+			]
+		],
+		"growth_direction": "DOWN",
+		"age": {
+			"range_min": 0,
+			"range_max": 1
+		},
+		"body_blocks": [
+			[
+				"minecraft:cave_vines",
+				1
+			]
+		],
+		"head_blocks": [
+			[
+				"minecraft:cave_vines",
+				1
+			]
+		]
+	}
+}
